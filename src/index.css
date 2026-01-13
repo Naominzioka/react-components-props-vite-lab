@@ -1,8 +1,8 @@
 :root {
-  --bg: #282c34;
+  --bg: #be6ee6;
   --header: #fff;
-  --link: #61dafb;
-  --text: hsla(0, 0%, 100%, 0.88);
+  --link: #871092;
+  --text: hwb(0 9% 90% / 0.836);
 }
 
 body {
@@ -30,11 +30,15 @@ h3 {
 
 header h1 {
   font-size: 3em;
+  
 }
 
 aside {
   display: flex;
   margin-bottom: 3rem;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 aside img {
@@ -47,13 +51,18 @@ aside img {
 
 article {
   margin-bottom: 3rem;
+  font-size: medium;
+
 }
 
 article p {
   margin-top: 0.25rem;
+  font-size: large;
+  
 }
 
 article h3 {
   color: var(--link);
   margin-bottom: 0rem;
+  
 }
